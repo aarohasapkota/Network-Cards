@@ -12,6 +12,8 @@
 ### Description
 
 This app is a flashcard app that contains flashcards for most of the Networking and CyberSecurity Certifications.
+This app uses Google Firestore Authentication and Cloud Firestore to handle user authentication and fetching data.
+This app also has a feature called General Knowledge Test which uses Trivia API to fetch questions.
 
 ### App Evaluation
 
@@ -23,6 +25,12 @@ This app is a flashcard app that contains flashcards for most of the Networking 
 - **Habit:** Daily use for users that are preparing for certifications
 - **Scope:** Narrow
 
+  
+## Walkthrough
+![Unit10Demo](https://github.com/user-attachments/assets/095ea0d2-c711-49d0-abba-89fcaa7f567e)
+
+
+
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
@@ -33,7 +41,7 @@ This app is a flashcard app that contains flashcards for most of the Networking 
 * User can login
 * User can view pre-built flashcards list
 * User can open a deck
-* User can import ANKI(.apkg) decks
+* User can get into fun mode to refresh
 
 **Optional Nice-to-have Stories**
 
@@ -47,44 +55,50 @@ This app is a flashcard app that contains flashcards for most of the Networking 
 
 
 **Login Screen**
-* User can login
+* - [X] User can login
 
 **Register Screen**
-* User can register
+* - [X] User can register
 
 **Flashcard Library**
-* User can view built-in flashcards
+* - [X] User can view built-in flashcards
 
-**Import Cards Screen**
-* User can Import Flashcards
+**General Knowledge Screen**
+* - [X] User can refresh their mind with fun question.
 
 **Flashcards Screen**
-* User can open and navigate through a deck
+* - [X] User can open and navigate through a deck
 
 
 
 ### 3. Navigation
 
 #### Tab Navigation (Tab to Screen)
-* Deck Library
-* Flashcard View
-* Import Deck View
+* - [X] Deck Library
+* - [X] Flashcard View
+* - [X] Import Deck View
+* - [X] General Knowledge View
 
 
 #### Flow Navigation (Screen to Screen)
 
 **Login Screen**
-  * Leads to Deck Library
+  * - [X] Leads to Deck Library
 
 **Register Screen**
-  * Leads to Deck Library 
+  * - [X] Leads to Deck Library 
 
 **Deck Library Screen**
-  * Leads to Flashcard View
-  * Leads to Import Deck View
+  * - [X] Leads to Flashcard View
+  * - [X] Leads to Import Deck View
+  * - [X] Leads to General Knowledge View
 
 **FlashCard View Screen**
-  * Leads to Deck Library 
+  * - [X] Leads to Deck Library
+
+**General Knowledge View Screen**
+  * - [X] Leads to Deck Library 
+
 
 
 ## Wireframes
